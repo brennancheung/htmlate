@@ -20,10 +20,12 @@
     "url": "http://github.com/brennancheung/htmlate.git"
   },
   "dependencies": {
-    "jsdom": "~0.8.11"
+    "jsdom": "~0.8.11",
+    "node-sizzle": "~0.1.0"
   },
   "devDependencies": {
     "mocha": "~1.17.1",
-    "should": "~3.1.0"
+    "should": "~3.1.0",
+    "coffee-script": "~1.6.3"
   }
 }
