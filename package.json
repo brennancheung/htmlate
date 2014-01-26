@@ -1,0 +1,29 @@
+{
+  "name": "htmlate",
+  "version": "0.0.1",
+  "description": "Expose templates to your users in pure HTML.",
+  "scripts": {
+    "test": "mocha -R spec --compilers coffee:coffee-script"
+  },
+  "main": "./lib/htmlate",
+  "keywords": [
+    "html",
+    "template"
+  ],
+  "author": "Brennan Cheung",
+  "license": {
+    "type": "MIT",
+    "url": "http://github.com/brennancheung/html-template/blob/master/LICENSE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/brennancheung/htmlate.git"
+  },
+  "dependencies": {
+    "jsdom": "~0.8.11"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "should": "~3.1.0"
+  }
+}
