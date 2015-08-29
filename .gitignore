@@ -7,5 +7,6 @@ dist/*
 node_modules/
 config.yml
 .*.swp
+*.swp
 src/features-override.json
 content/*
